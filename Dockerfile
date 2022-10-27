@@ -12,7 +12,7 @@ RUN go mod download
 
 COPY . .
 
-ENV PORT 8000
+ENV PORT 4000
 
 RUN go build
 
